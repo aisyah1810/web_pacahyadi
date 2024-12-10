@@ -1,0 +1,103 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #999;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box; /* Agar padding tidak mempengaruhi ukuran total */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+main {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333; /* Judul utama menggunakan warna #333 */
+}
+
+p {
+    color: #555; /* Paragraf menggunakan warna #555 */
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; /* Memberikan padding lebih luas pada tombol */
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px; /* Ukuran font lebih besar agar tombol lebih terbaca */
+    border-radius: 5px; /* Memberikan sudut melengkung pada tombol */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Menambahkan efek transisi */
+}
+
+button:hover {
+    background-color: #555;
+    transform: translateY(-2px); /* Efek mengangkat tombol saat hover */
+}
+
+.stok {
+    background-color: #555; /* Warna latar belakang */
+    color: #fff; /* Warna teks putih */
+    border: none; /* Menghilangkan border default */
+    padding: 10px 5px; /* Padding horizontal ditambah agar lebih besar */
+    cursor: pointer; /* Menambahkan cursor pointer */
+    margin: 5px 0; /* Menambahkan margin vertikal */
+    border-radius: 5px; /* Membuat sudut lebih halus */
+    font-size: 20px; /* Ukuran font lebih kecil */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Efek transisi halus */
+}
+
+.stok:hover {
+    background-color: #444; /* Warna latar saat hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan lebih halus */
+    transform: translateY(-2px); /* Efek mengangkat tombol saat hover */
+}
+.stok a {
+    color: white; /* Menetapkan warna teks menjadi putih */
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+}
+
+.stok a:hover {
+    color: #ddd; /* Menambahkan efek hover dengan warna lebih terang */
+}

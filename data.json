@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "nama": "Kursi",
+        "gambar": "assets\/kursi.jpg",
+        "harga": "100000",
+        "stok": 0
+    },
+    {
+        "id": 2,
+        "nama": "Meja",
+        "gambar": "assets\/meja.jpg",
+        "harga": "150000",
+        "stok": 14
+    },
+    {
+        "id": 3,
+        "nama": "Kaca",
+        "gambar": "assets\/kaca.jpg",
+        "harga": "70000",
+        "stok": 23
+    },
+    {
+        "id": 4,
+        "nama": "Karpet",
+        "gambar": "assets\/karpet.jpg",
+        "harga": "20000",
+        "stok": 1
+    },
+    {
+        "id": 5,
+        "nama": "Sepatu",
+        "gambar": "assets\/Sepatu.jpg",
+        "harga": "2000000",
+        "stok": 14
+    },
+    {
+        "id": 6,
+        "nama": "Baju",
+        "gambar": "assets\/Baju.jpg",
+        "harga": "200000",
+        "stok": 1
+    },
+    {
+        "id": 7,
+        "nama": "Jam",
+        "gambar": "assets\/Jam.jpg",
+        "harga": "100000",
+        "stok": 218
+    },
+    {
+        "id": 8,
+        "nama": "Hiasan",
+        "gambar": "assets\/Hiasan.jpg",
+        "harga": "20000",
+        "stok": 1
+    }
+]
